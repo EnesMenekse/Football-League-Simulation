@@ -1,0 +1,61 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#standingsTable,
+#matchesTable {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Hover effect for match rows */
+#matchesTable tbody tr:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
