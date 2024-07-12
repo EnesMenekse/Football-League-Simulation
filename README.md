@@ -1,6 +1,4 @@
----
-title: Football League Simulation Documentation
----
+
 
 # Project Name
 
